@@ -180,40 +180,40 @@ The following screenshots demonstrate the main features and working interface of
 The main dashboard provides a centralized view of the manufacturing system, including production performance, machine status, maintenance information, IoT data, alerts, and analytics.
 
 
-(<img width="1855" height="961" alt="image" src="https://github.com/user-attachments/assets/de8fe8c0-6bb6-46d6-9ccf-bcd08cbfd39a" />
-)
+<img width="1855" height="961" alt="image" src="https://github.com/user-attachments/assets/de8fe8c0-6bb6-46d6-9ccf-bcd08cbfd39a" />
+
 
 ### 2. Production & Machine Monitoring
 
 The dashboard displays production quantities, defects, machine information, and operational status, allowing users to monitor manufacturing activities from a single interface.
 
 
-(<img width="1848" height="507" alt="image" src="https://github.com/user-attachments/assets/5c49b5dc-209f-439b-b6a3-3a2eef6c291a" />
-)
+<img width="1848" height="507" alt="image" src="https://github.com/user-attachments/assets/5c49b5dc-209f-439b-b6a3-3a2eef6c291a" />
+
 
 ### 3. IoT Monitoring & Alerts
 
 Simulated IoT sensor data is used to monitor machine temperature, vibration, pressure, and operating hours. The system automatically detects abnormal readings and generates maintenance alerts.
 
 
-(<img width="1867" height="931" alt="image" src="https://github.com/user-attachments/assets/a8628915-14af-4ca9-b519-952faa3b090c" />
-)
+<img width="1867" height="931" alt="image" src="https://github.com/user-attachments/assets/a8628915-14af-4ca9-b519-952faa3b090c" />
+
 
 ### 4. Manufacturing Analytics
 
 Interactive charts provide a visual representation of production, defects, downtime, and machine operating hours, helping users understand manufacturing performance.
 
 
-(<img width="1804" height="690" alt="image" src="https://github.com/user-attachments/assets/cead911f-ee27-4efb-b25b-f8897dfe0481" />
-)
+<img width="1804" height="690" alt="image" src="https://github.com/user-attachments/assets/cead911f-ee27-4efb-b25b-f8897dfe0481" />
+
 
 ### 5. Product Engineering & BOM
 
 The Product Engineering section provides product information and displays the Bill of Materials (BOM), including components, quantities, materials, specifications, and manufacturing stages.
 
 
-(<img width="1875" height="931" alt="image" src="https://github.com/user-attachments/assets/f84aa767-c9eb-40c5-8cf0-58468ffb8329" />
-)
+<img width="1875" height="931" alt="image" src="https://github.com/user-attachments/assets/f84aa767-c9eb-40c5-8cf0-58468ffb8329" />
+
 
 ### 6. AI Manufacturing Assistant
 
@@ -222,8 +222,8 @@ The AI assistant allows users to ask questions about manufacturing data and tech
 The assistant can retrieve structured information using SQL, retrieve technical information using RAG, and combine both approaches for machine-specific analysis.
 
 
-(<img width="1828" height="826" alt="image" src="https://github.com/user-attachments/assets/5ab707fc-c4e6-42e1-9dfe-d1973d5e56f4" />
-)
+<img width="1828" height="826" alt="image" src="https://github.com/user-attachments/assets/5ab707fc-c4e6-42e1-9dfe-d1973d5e56f4" />
+
 
 ---
 
