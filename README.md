@@ -245,9 +245,3 @@ The SmartFactory prototype successfully integrates multiple manufacturing IT con
 
 - **REST API Integration:** The different modules communicate through Flask REST API endpoints, providing a foundation for integrating frontend, database, analytics, IoT, and AI components.
 
-### Example AI Capabilities
-
-The system can answer questions such as:
-
-```text
-"Which machine has the highest downtime?"
