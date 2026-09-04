@@ -170,3 +170,84 @@ Example:
 M-002 → High Temperature
 M-003 → High Vibration
 M-004 → High Pressure
+```
+## 📸 Screenshots
+
+The following screenshots demonstrate the main features and working interface of the SmartFactory system.
+
+### 1. SmartFactory Dashboard
+
+The main dashboard provides a centralized view of the manufacturing system, including production performance, machine status, maintenance information, IoT data, alerts, and analytics.
+
+![SmartFactory Dashboard](<img width="1855" height="961" alt="image" src="https://github.com/user-attachments/assets/de8fe8c0-6bb6-46d6-9ccf-bcd08cbfd39a" />
+)
+
+### 2. Production & Machine Monitoring
+
+The dashboard displays production quantities, defects, machine information, and operational status, allowing users to monitor manufacturing activities from a single interface.
+
+![Production and Machine Monitoring](<img width="1848" height="507" alt="image" src="https://github.com/user-attachments/assets/5c49b5dc-209f-439b-b6a3-3a2eef6c291a" />
+)
+
+### 3. IoT Monitoring & Alerts
+
+Simulated IoT sensor data is used to monitor machine temperature, vibration, pressure, and operating hours. The system automatically detects abnormal readings and generates maintenance alerts.
+
+![IoT Monitoring](<img width="1867" height="931" alt="image" src="https://github.com/user-attachments/assets/a8628915-14af-4ca9-b519-952faa3b090c" />
+)
+
+### 4. Manufacturing Analytics
+
+Interactive charts provide a visual representation of production, defects, downtime, and machine operating hours, helping users understand manufacturing performance.
+
+![Manufacturing Analytics](<img width="1804" height="690" alt="image" src="https://github.com/user-attachments/assets/cead911f-ee27-4efb-b25b-f8897dfe0481" />
+)
+
+### 5. Product Engineering & BOM
+
+The Product Engineering section provides product information and displays the Bill of Materials (BOM), including components, quantities, materials, specifications, and manufacturing stages.
+
+![Product Engineering and BOM](<img width="1875" height="931" alt="image" src="https://github.com/user-attachments/assets/f84aa767-c9eb-40c5-8cf0-58468ffb8329" />
+)
+
+### 6. AI Manufacturing Assistant
+
+The AI assistant allows users to ask questions about manufacturing data and technical knowledge.
+
+The assistant can retrieve structured information using SQL, retrieve technical information using RAG, and combine both approaches for machine-specific analysis.
+
+![AI Manufacturing Assistant](<img width="1828" height="826" alt="image" src="https://github.com/user-attachments/assets/5ab707fc-c4e6-42e1-9dfe-d1973d5e56f4" />
+)
+
+---
+
+## 📊 Results
+
+The SmartFactory prototype successfully integrates multiple manufacturing IT concepts into a single system.
+
+### Key Results
+
+- **Centralized Manufacturing Information:** Production, machines, maintenance, customers, orders, products, and BOM information are managed through a unified platform.
+
+- **Real-Time-Style Machine Monitoring:** Simulated IoT sensor data provides continuous machine readings for temperature, vibration, pressure, and operating hours.
+
+- **Automated Anomaly Detection:** The system identifies abnormal machine conditions and generates alerts when sensor values exceed predefined thresholds.
+
+- **Manufacturing Analytics:** Interactive dashboards provide visual insights into production, defects, downtime, and machine utilization.
+
+- **Product Data Management:** Products, components, BOM structures, versions, and manufacturing stages are represented using a structured database.
+
+- **AI-Based Knowledge Retrieval:** Technical manufacturing documents can be searched using a RAG-based AI assistant.
+
+- **SQL-Based Data Analysis:** The AI assistant can answer questions involving structured manufacturing data using predefined SQL queries.
+
+- **Combined SQL + RAG Analysis:** Machine-specific questions can use both live sensor information and technical manufacturing knowledge to provide more useful responses.
+
+- **REST API Integration:** The different modules communicate through Flask REST API endpoints, providing a foundation for integrating frontend, database, analytics, IoT, and AI components.
+
+### Example AI Capabilities
+
+The system can answer questions such as:
+
+```text
+"Which machine has the highest downtime?"
